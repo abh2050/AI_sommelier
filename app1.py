@@ -324,7 +324,7 @@ if query:
                     try:
                         # Choose model based on context size
                         selected_model = model_choice
-                        if estimated_tokens > 7000 and model_choice in ["gpt-4", "gpt-4-turbo"]:
+                        if estimated_tokens > 7000 and model_choice in ["gpt-4o", "gpt-4-turbo"]:
                             selected_model = "gpt-3.5-turbo-16k"  # Fallback to larger context model
                             st.warning(f"Context too large for {model_choice}, using {selected_model} instead")
                         
