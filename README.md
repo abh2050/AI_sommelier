@@ -22,7 +22,7 @@ An AI-powered sommelier assistant that answers questions about wines, winery inf
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/wine-sommelier-ai.git
+git clone https://github.com/abh2050/AI_sommelier.git
 cd wine-sommelier-ai
 ```
 
