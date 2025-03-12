@@ -75,7 +75,3 @@ python indexer.py --recreate
 - `indexer.py`: Document processing and indexing script
 - `chunk.py`: Tool to estimate chunks in documents
 - `data/markdown_results/`: Directory containing markdown files
-
-## License
-
-[Your chosen license]
